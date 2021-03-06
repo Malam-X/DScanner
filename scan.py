@@ -11,13 +11,6 @@ from time import sleep as TIMER
 from var import banner
 from var import *
 
-YesChoice = ['Yes', 'yes', 'y', 'Y']
-NoChoice = ['No', 'no']
-print(f'''
-  {Bold}{BrightYellow} [01] MTR{Reset}
-  ''')
-
-
 def clear():
     if sys.platform.startswith('darwin'):
         STES('clear')
