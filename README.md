@@ -20,5 +20,6 @@
 
 ```
 git clone https://github.com/Malam-X/DScanner/
+cd DScanner
 python3 scan.py
 ```
