@@ -46,6 +46,12 @@ class target:
                 elif 'http' in u:
                     print(''.join(TargetNOTFOUND))
                     TIMER(0.3)
+                elif 'http://' in u:
+                    print(''.join(TargetNOTFOUND))
+                    TIMER(0.3)
+                elif 'https://' in u:
+                    print(''.join(TargetNOTFOUND))
+                    TIMER(0.3)
                 elif '.' not in u:
                     print(''.join(TargetNOTFOUND))
                     TIMER(0.3)
